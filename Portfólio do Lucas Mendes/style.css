@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poooins",sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+
+ .background{
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(NorthernLights.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem ;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3 rem;
+    font-weight: 300;
+    cursor: pointer;
+    margin-inline: 300;
+    
+}
+.cabeçalho-link li{
+    margin: 100;
+    scroll-padding: 200;
+}
+
+.cabeçalho-link a{
+    color: wheat;
+    font-size: 19px;
+
+
+}
+
+.cabeçalho-link a:hover{
+    color: #2ecc71;
+    transition: 0.3s all;
+}
+
+.logo i{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+    border-radius:50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.button{
+    color: #2ecc71;
+    background: transparent;
+    border:solid 1px #2ecc71;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: #2ecc71 ;
+    color: wheat;
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 150px 0 0 130px ;
+    color:  wheat;
+}
+
+.RedesSociais a{
+    margin-top: 15px;
+    color: #2ecc71;
+    font-size: 19px;
+}
+
+
+
+.Foto-do-Lucas{
+    padding: right;
+    display: flex;
+    background-image: url('fotoDePerfilDoLinkdin.jpg')  ;
+    right: auto;
+    
+}  
+
+  
